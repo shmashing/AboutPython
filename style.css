@@ -85,4 +85,41 @@
     margin-top: 13px;
     font-size: 20px
 }
+.sidebar_nav {
+    margin-left: 80px;
+    display: inline-block;
+}
+.sidebar_nav ul li {
+    display: flex;
+    justify-content: center;
+    color: gold;
+    margin-top: 18px;
+    line-height: 15px;
+    font-size: 8px;
+}
+.sidebar_nav ul li a {
+    color: white;
+    margin-top: 0px;
+    list-style-type: circle;
+    font-size:18px;
 
+}
+.main_content {
+    display: inline-block;
+    margin-left: 40px;
+    width: 550px;
+    vertical-align: top;
+}	
+.main_content p.text{
+    text-align: center;
+    font-size: 16px;
+}
+.main_content p.quote{
+    text-align: center;
+    font-size: 20px;
+    color: gold;
+    font-style: italic;
+}
+.main_content p.end{
+    color: white;
+}
